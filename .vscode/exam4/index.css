@@ -1,0 +1,9 @@
+p {
+  text-align: center;
+}
+
+#change {
+  width: 300px;
+  margin: auto;
+  display: block;
+}

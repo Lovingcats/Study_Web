@@ -1,0 +1,16 @@
+h1 {
+  text-align: center;
+  color: goldenrod;
+}
+
+body {
+  background-image: url("green.jpg");
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}
+#message-el {
+  font-style: italic;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        var count = 0;
+        function show(){
+            count++
+            document.querySelector('h1').innerHTML = count;
+            if(count % 10 === 0){
+                alert('Counter is now' + count);
+            }
+        }
+        document.addEventListener('DDMContentLoaded', function(){
+            document.querySelector('button').onclick = show;
+        })
+    </script>
+    <title>JavaScript 연습</title>
+</head>
+<body>
+    <h1>
+        점수 올려보기
+    </h1>
+        <input type="button" value="점수 올리기" onclick="show()">
+
+</body>
+</html>

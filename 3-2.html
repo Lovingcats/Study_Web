@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>제목 바꾸기</title>
+    <script>
+        function hello(){
+        const header = document.querySelector('h1');
+        if(header.innerHTML === 'Hello!'){
+            header.innerHTML = 'GoodBye!'
+        }
+        else{
+            header.innerHTML = 'Hello!'
+        }
+    }
+    </script>
+</head>
+<body>
+    <h1>Hello!</h1>
+    <button type="button" onclick="hello()">제목 바꾸기</button>
+</body>
+</html>
